@@ -148,12 +148,6 @@ html {
 	background-color: rgb(255, 141, 35);
   }
 
-  @media screen and (max-width: 650px) {
-	.column {
-	  width: 100%;
-	  display: block;
-	}
-  }
 /*****************************************************************************/
 .setup-section {
 	padding: 50px;
@@ -195,22 +189,14 @@ p {
 	font-family: Helvetica
 }
 
-/* Michelle Footer for about us page*/
-.footer2 {
-	color: rgb(0, 194, 228);
+.footer{
+	color: rgb(255, 255, 255);
 	background-color: rgb(46, 46, 46);
-	width: 100%;
-	height: 2%; 
 	text-align: center;
-	padding: 1%;
-	margin-top: 37%;
-}
-@media screen and (max-width: 650px) {
-	.footer2 {
 	width: 100%;
-	display: block;
-	}
+	padding: 1%;
 }
+
 /*************************************************************************/
 
 /* main wrapper for images on index page */
@@ -270,10 +256,6 @@ p {
 
 
 /**************************************************************************/
-.aboutme p{
-	text-align: left;
-}
-
 
 .contactform {
 	border: 3px rgb(202, 228, 89) solid;
