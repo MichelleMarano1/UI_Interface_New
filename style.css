@@ -86,24 +86,23 @@ html {
   }
 
   .contain {	
-	background-color: #e6e6e6;
-	padding: 0 16px;
-	-webkit-flex: 2;
-	-ms-flex: 2;
-	flex: 2;
-	border-radius: 1em;
-	padding: 1em;
-	margin-right: -50%;
-	transform: translate(-61%, 0%);
-	width: 100%;
-  }
+	float: right;
+    width: 165%;
+    padding: 39px;
+    background-color: #ffffff;
+    text-align: center;
+    Height: 136%;
+    border-radius: 25px;
+    border: 3px rgb(202, 228, 89) solid;
+    margin: 25px;
+}
   img {
 	border-radius: 8px;
 	position: relative;
 	left: 0%;
   }
 
-  .title {
+  .title h2{
 	color: rgb(0, 191, 216);
 	font: large;
   }
@@ -120,7 +119,6 @@ html {
 	height: 179px;
 	font-size: large;
 	font-weight: bold;
-	margin-left: 33%;
   }
 
   .button:hover {
@@ -166,14 +164,13 @@ html {
 .gallery {
 	padding: 50px;
 	text-align: center;
-	background-color: rgb(187, 190, 190);
+	background-color: rgb(202 54 58);
 	color: rgb(255, 255, 255);
   }
 .burning{
 	padding: 50px;
 	text-align: center;
-	background-color: rgb(218, 92, 9);
-	color: rgb(255, 255, 255);
+	background-color: rgb(208 188 220);
   }
 
   
@@ -273,90 +270,97 @@ p {
 
 
 /**************************************************************************/
+.aboutme p{
+	text-align: left;
+}
 
-.main:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
 
-.info {
-	display: block;
+.contactform {
+	border: 3px rgb(202, 228, 89) solid;
+	margin:5px;
+	border-radius: 10px;
+}
+
+form {
+	margin: 25px;
 	padding: 10px;
-	background-color: ghostwhite;
-}
-
-/* Michelle */
-.footer  {
-	color: rgb(255, 255, 255);
-	background-color: rgb(102, 102, 102);
-	text-align: center;
-	width: 100%;
-	padding: 1%;
-}
-
-
-
-
-.container5 {
-
-	border-radius: 1px;
-	background-color: #e6e6e6;
-
-	border-radius: 1em;
-	padding: 1em;
-
-	transform: translate(0%, 1%);
-	width: 560px;
+	text-align:center;
 
 }
 
-.form {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-  }
+/* Source: https://css-tricks.com/focusing-on-focus-styles/ */
+/* Source: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_dim_width_inputfocus */
+/* Set width of input field to 100px. When input field is in focus, make it 250px wide. */
 
-/* Add styles to 'label' selector */
-label {
-	text-align: left;
-	font-size: 15px;
+form label {
+	font-weight: bold;
+	color:rgb(255, 6, 201);
 }
 
-/* Add styles to 'input' and 'textarea' selectors */
-input[type=text],input[type=email], textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid rgb(255, 0, 119);
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+input[type=text] {
+	width: 250px;
+	-webkit-transition: width .35s ease-in-out;
+	transition: width .35s ease-in-out;
+	margin: 5px;
+	border-radius: 5px;
+	height: 32px;
 }
 
+input[type=text]:focus{
+	width: 400px;
+	border: rgb(255, 6, 201) 2px solid;
+	cursor: pointer;
+}
 
-/* Add styles to the submit button */
+input[type=text]:hover{
+	border: rgb(0, 210, 247) 5px solid;
+	cursor: text;
+}
+
 input[type=submit] {
-	background: #ff5f02;
-	margin: 0 auto;
-	outline: 0;
-	color: white;
-	border: 0;
-	padding: 12px 24px;
+	margin: 10px;
+	font-size: medium;
+	font-weight: bold;
+	background-color:rgb(255, 6, 201);
+	padding: 10px;
+	color: whitesmoke;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* focus state when tabbing through input boxes */
+input[type=submit]:focus{
+	width: 100px;
+	-webkit-transition: width .35s ease-in-out;
+	transition: width .35s ease-in-out;
+	-webkit-transition: height .35s ease-in-out;
+	transition: height .35s ease-in-out;
+	background-color:rgb(202, 228, 89);
+	font-weight: bold;
+	font-size: large;
+
+}
+
+input[type=submit]:hover{
+	background-color: rgb(199, 235, 70);
+	border: 2px green solid;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: medium;
+	
+}
+
+
+.video1 {
+	border: 1px solid #fff;
 	border-radius: 4px;
-	transition: all ease-in-out 0.1s;
+	padding: 5px;
 	position: relative;
-	display: inline-block;
-	text-align: center;
+	left: 15%;
+	margin-top: 5%;
 }
 
-/* Style 'hover' property */
-input[type=submit]:hover {
-	background: #f3218a;
-}
 
-/* Align items to center of the 'div' with the class 'center' */
-.center {
-	text-align: left;
+.background-burn {
+	background: linear-gradient(to left, #9198e5,#74d8ef);
 }
