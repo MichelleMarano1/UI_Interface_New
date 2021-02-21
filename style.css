@@ -15,6 +15,7 @@ body {
 	font-size: 48pt;
 	font-family: Helvetica;
 	position: absolute;
+	width: 560px;
   }
   
   .centered3 {
@@ -22,6 +23,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
   }
 
 .nav {
@@ -138,6 +140,10 @@ html {
 	padding: 79px 8px;
 	width: 33%;
 	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-7%, -426%);
   }
   
   .clickme:hover {
@@ -292,64 +298,47 @@ p {
 
 
 
-
-
-
-/* Remove outline of all elements on focus */
-*:focus {
-	outline: 0;
-}
-
-h6 {
-	color: rgb(42, 42, 42);
-text-align: left;
-padding: 1%;
-}
-
-/* Add styles to 'container' class */
 .container5 {
-	padding: 12px 24px 24px 24px;
-	margin: 48px 12px;
-	border-radius: 4px;
+
+	border-radius: 1px;
 	background-color: #e6e6e6;
-	padding: 0 16px;
-	-webkit-flex: 2;
-	-ms-flex: 2;
-	flex: 2;
+
 	border-radius: 1em;
 	padding: 1em;
-	margin-right: -50%;
-	transform: translate(-1%, 8%);
-	width: 50%;
+
+	transform: translate(0%, 1%);
+	width: 560px;
+
 }
+
+.form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
 
 /* Add styles to 'label' selector */
 label {
 	text-align: left;
-	font-size: 0.85em;
-	margin-left: 12px;
+	font-size: 15px;
 }
 
 /* Add styles to 'input' and 'textarea' selectors */
 input[type=text],input[type=email], textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid rgb(255, 0, 119);
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
 }
 
-/* Add styles to show 'focus' of selector */
-input[type=text]:focus,input[type=email]:focus, textarea:focus {
-	border: 1px solid green;
-}
 
 /* Add styles to the submit button */
 input[type=submit] {
-	background: #64B5F6;
+	background: #ff5f02;
 	margin: 0 auto;
 	outline: 0;
 	color: white;
@@ -362,18 +351,12 @@ input[type=submit] {
 	text-align: center;
 }
 
-/* Add styles for 'focus' property */
-input[type=submit]:focus {
-	background: #A5D6A7;
-	color: whitesmoke;
-}
-
 /* Style 'hover' property */
 input[type=submit]:hover {
-	background: #2196F3;
+	background: #f3218a;
 }
 
 /* Align items to center of the 'div' with the class 'center' */
 .center {
-	text-align: center;
+	text-align: left;
 }
