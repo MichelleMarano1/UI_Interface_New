@@ -113,7 +113,7 @@ html {
 	text-decoration: none;
 	padding: 7px;
 	color: rgb(255, 255, 255);
-	background-color: rgb(0, 194, 228);
+	background-color: rgb(170, 0, 99);
 	text-align: center;
 	cursor: pointer;
 	height: 179px;
@@ -294,7 +294,7 @@ form {
 
 form label {
 	font-weight: bold;
-	color:rgb(255, 6, 201);
+	color:rgb(170, 0, 99);
 }
 
 input[type=text] {
@@ -308,7 +308,7 @@ input[type=text] {
 
 input[type=text]:focus{
 	width: 400px;
-	border: rgb(255, 6, 201) 2px solid;
+	border: rgb(170, 0, 99) 2px solid;
 	cursor: pointer;
 }
 
@@ -321,7 +321,7 @@ input[type=submit] {
 	margin: 10px;
 	font-size: medium;
 	font-weight: bold;
-	background-color:rgb(255, 6, 201);
+	background-color:rgb(170, 0, 99);
 	padding: 10px;
 	color: whitesmoke;
 	border-radius: 5px;
@@ -342,12 +342,10 @@ input[type=submit]:focus{
 }
 
 input[type=submit]:hover{
-	background-color: rgb(199, 235, 70);
-	border: 2px green solid;
+	background-color: rgb(152, 194, 0);
 	border-radius: 5px;
 	font-weight: bold;
 	font-size: medium;
-	
 }
 
 
