@@ -8,15 +8,16 @@
 body {
 	font-family: 'Josefin Sans', sans-serif;
 }
-.container {
+.container3 {
 	position: relative;
 	text-align: center;
 	color: rgb(255, 255, 255);
 	font-size: 48pt;
-	font-family: Helvetica
+	font-family: Helvetica;
+	position: absolute;
   }
   
-  .centered {
+  .centered3 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -82,21 +83,24 @@ html {
 	padding: 0 8px;
   }
 
-  .container {	
+  .contain {	
 	background-color: #e6e6e6;
 	padding: 0 16px;
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 2;
+	border-radius: 1em;
+	padding: 1em;
+	margin-right: -50%;
+	transform: translate(-61%, 0%);
+	width: 100%;
+  }
+  img {
+	border-radius: 8px;
+	position: relative;
+	left: 0%;
   }
 
-  .container2 {
-	padding: 0 16px;
-	-webkit-flex: 2;
-	-ms-flex: 2;
-	flex: 2;
-  }
-  
   .title {
 	color: rgb(0, 191, 216);
 	font: large;
@@ -155,23 +159,23 @@ html {
 .setup-section {
 	padding: 50px;
 	text-align: center;
-	background-color: rgb(0, 191, 216);
+	background-color: rgb(202, 216, 0);
 	color: rgb(27, 27, 27);
   }
-  
-.Forum-section{
+.gallery {
 	padding: 50px;
 	text-align: center;
-	background-color: rgba(255, 141, 35, 0.733);
-	color: rgb(92, 92, 92);
+	background-color: rgb(0, 216, 205);
+	color: rgb(255, 255, 255);
+  }
+.burning{
+	padding: 50px;
+	text-align: center;
+	background-color: rgb(216, 0, 101);
+	color: rgb(255, 255, 255);
   }
 
-.specs-section{
-	padding: 50px;
-	text-align: center;
-	background-color:rgb(4, 255, 201);
-}
-
+  
 /*Michelle */
 h1 {
 	color: rgb(42, 42, 42);
@@ -181,6 +185,15 @@ h1 {
 h2 {color: rgb(42, 42, 42);
 text-align: center;
 padding: 1%;
+}
+
+p {
+	position: relative;
+	text-align: left;
+	line-height: 21.4px;
+	color: rgb(29, 29, 29);
+	font-size: 11pt;
+	font-family: Helvetica
 }
 
 /* Michelle Footer for about us page*/
@@ -220,47 +233,6 @@ padding: 1%;
 	display: flex;
 	}
 
-/* this is for the text layer that is presnt when hovering over image */
-.layer {
-	font-size: 20px;
-	font-weight: bold;
-	opacity: 0;
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 50px;
-	height: 60%;
-	text-align: center;
-	padding: 5px;
-	background:rgb(255, 255, 255);
-	color: rgb(97, 97, 97);
-	transition: all 1s ease;
-	/* text transitions for the text appearing refernce https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp */
-	/* p { 
-		transition: ease-out;
-	} */
-  }
-  
-  /* hover options. For experimenting and learning about transition options e.g speed and easing
-   i referenced https://www.w3schools.com/css/css3_transitions.asp */
-  .images:hover .layer {
-	opacity: 0.8;
-	width: 291px;
-	height: 211px;
-	border-radius: 12px;
-	transition-timing-function: ease-in-out;
-  }
-
-.imageLinks {
-	background: none;
-	font-size: larger;
-
-}
-
-.bghome {
-background:rgb(243, 243, 243);
-}
 
 /*************************************************************************/
 /*************************************************************************/
@@ -299,78 +271,6 @@ background:rgb(243, 243, 243);
 }
 
 
-/*Michelles Button for links on specs page */
- .booton {
-	border: none;
-	text-decoration: none;
-	padding: 7px;
-	color: rgb(255, 255, 255);
-	background-color: rgb(255, 141, 35);
-	text-align: center;
-	cursor: pointer;
-	height: 179px;
-	font-size: large;
-	font-weight: bold;
-  }
-
-  .booton:hover {
-	background-color: rgb(4, 255, 201);
-  } 
-
-/**************************************************************************/
-/**************************************************************************/
-/* HOllie- Forum/Questions Page*/
-
-.questions {
-	background-color: rgb(243, 243, 243);
-}
-
-
-/* Buttons to open and close the accordion box for catagories*/
-/* refernce used for Cursor icons https://www.w3schools.com/cssref/pr_class_cursor.asp */
-.accordion {
-	color: #444;
-	cursor: help;
-	padding: 25px;
-	width: 100%;
-	text-align: center;
-	border: none;
-  }
-  
-  /* background color for button when it is hovered/clicked on */
-  .accordion .active, .accordion:hover {
-	background-color:rgba(255, 141, 35, 0.082);
-  }
-  
-  /* Styling Accordian */
-  .panel {
-	width: 100%;
-	padding: 0 10px;
-	background-color: white;
-	display: none;
-	overflow: hidden;
-	padding: 20px;
-	font-size: 14px;
-	font-family: 'Josefin Sans', sans-serif;
-  }
-
-/* Used this table for unicodes refernce for icons 'conten' https://www.rapidtables.com/code/text/unicode-characters.html */
-.accordion:after {
-	content: '\2295'; 
-	font-size: 18px;
-	color: rgb(148, 147, 147);
-	float: right;
-	margin-left: 5px;
-	margin-right: 40px;
-  }
-
-  /*changing the icon after it has been clicked on to open up. */
-  .accordion .active:after {
-	content: "\229D"; /* for the minus symbol */
-  }
-
-
-
 /**************************************************************************/
 
 .main:after {
@@ -394,9 +294,91 @@ background:rgb(243, 243, 243);
 	padding: 1%;
 }
 
-/* Michelle */
-.footer h6 a {
-	color: rgb(230, 230, 230);
-	text-decoration: none;
-	cursor: pointer;
+
+
+
+
+
+
+/* Remove outline of all elements on focus */
+*:focus {
+	outline: 0;
+}
+
+h6 {
+	color: rgb(42, 42, 42);
+text-align: left;
+padding: 1%;
+}
+
+/* Add styles to 'container' class */
+.container5 {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+	padding: 0 16px;
+	-webkit-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+	border-radius: 1em;
+	padding: 1em;
+	margin-right: -50%;
+	transform: translate(-1%, 8%);
+	width: 50%;
+}
+
+/* Add styles to 'label' selector */
+label {
+	text-align: left;
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+	background: #64B5F6;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
 }
