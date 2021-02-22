@@ -22,55 +22,82 @@
 
         <div class="gallery">
         <h1> Portfolio Pieces </h1>
-        <h2> Displays part of my undergrad thesis where I explored what is means to be half Indigenous half settler, a case study on belonging and identity </h2>
+        <h2> Displaying part of my undergrad thesis where I explored what is means to be half Indigenous half settler, a case study on belonging and identity </h2>
         </div>
 
-        <!-- Images have layer in top for rollover and text. Took inspiration from 
-        my personal website project. Code taken from that and also referenced in the CSS in this project -->
+        <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tab_img_gallery ... Learned how to expaned images-->
         <div class="wrapper">
 
                 <div class="images">
                     <div class="layer" >
                     </div>
-                    <img src="images\safe.JPG" width="291" height="211">
+                    <img src="images\IMG_0523.jpeg" width="291" height="211" onclick="myFunction(this);">
                  </div>
-
-            <!-- Links wrapped around so that user can click on image to direct them to a page -->
-
                 <div class="images">
                     <div class="layer">
                     </div>
-                    <img src="images\book1.JPG" width="291" height="211">
+                    <img src="images\book1.JPG" width="291" height="211" onclick="myFunction(this);">
                 </div>
 
                 <div class="images" >
                     <div class="layer" >
                     </div>
-                    <img src="images\book2.JPG" width="291" height="211">
+                    <img src="images\book2.JPG" width="291" height="211" onclick="myFunction(this);">
                 </div>
 
                 <div class="images">
                     <div class="layer">
                     </div>
-                    <img src="images\book3.JPG" width="291" height="211" >
+                    <img src="images\book3.JPG" width="291" height="211" onclick="myFunction(this);">
                 </div>
 
             <div class="images">
                 <div class="layer">
                 </div>
-                <img src="images\book4.JPG" width="291" height="211">
+                <img src="images\book4.JPG" width="291" height="211" onclick="myFunction(this);">
                 </div>
 
             <div class="images">
                 <div class="layer">
                 </div>
-                <img src="images\okay.JPG" width="291" height="211">
+                <img src="images\IMG_0535.jpeg" width="291" height="211" onclick="myFunction(this);">
                 </div>
-            </a>
-        </div>
 
+                <div class="images">
+                    <div class="layer">
+                    </div>
+                    <img src="images\IMG_0564.jpeg" width="291" height="211" onclick="myFunction(this);">
+                </div>
 
-    <!--Kezia Yu November 24,2020-->
+                <div class="images" >
+                    <div class="layer" >
+                    </div>
+                    <img src="images\IMG_0566.jpeg" width="291" height="211" onclick="myFunction(this);">
+                </div>
+
+                <div class="images">
+                    <div class="layer">
+                    </div>
+                    <img src="images\IMG_0697.jpeg" width="291" height="211" onclick="myFunction(this);">
+                </div>
+
+                <div class="container">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <img id="expand" style="width:100%">
+                    <div id="expanimages"></div>
+                  </div>
+
+                <script>
+                    function myFunction(imgs) {
+                      var expandImg = document.getElementById("expand");
+                      var imgText = document.getElementById("expanimages");
+                      expandImg.src = imgs.src;
+                      imgText.innerHTML = imgs.alt;
+                      expandImg.parentElement.style.display = "block";
+                    }
+                    </script>
+                  
+
     <div class="footer">
         <h5>Michelle Marano 2021 ©</h5>
     </div>

@@ -9,13 +9,12 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 .container3 {
-	position: relative;
-	text-align: center;
-	color: rgb(255, 255, 255);
-	font-size: 48pt;
-	font-family: Helvetica;
-	position: absolute;
-	width: 560px;
+    background-color: white;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Montserrat', arial, helvetica, sans-serif;
   }
   
   .centered3 {
@@ -158,24 +157,36 @@ html {
 .gallery {
 	padding: 50px;
 	text-align: center;
-	background-color: rgb(202 54 58);
-	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
   }
-.burning{
+.gallery h1 {
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.gallery h2  {
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+.burning {
 	padding: 50px;
 	text-align: center;
-	background-color: rgb(208 188 220);
+	background-color: rgb(23 0 1);
   }
 
-  
-/*Michelle */
+.burning h1 {
+	text-align: center;
+	color: rgb(255, 255, 255);
+  }
+
+/* Headings */
 h1 {
-	color: rgb(39, 39, 39);
+	color: rgb(0, 0, 0);
 	text-align: center;
 	font-weight:900;
 }
 
-h2 {color: rgb(42, 42, 42);
+h2 {color: rgb(0, 0, 0);
 text-align: center;
 padding: 1%;
 }
@@ -197,6 +208,10 @@ p {
 	padding: 1%;
 }
 
+.footer a {
+	color: rgb(165, 211, 0);
+}
+
 /*************************************************************************/
 
 /* main wrapper for images on index page */
@@ -216,6 +231,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	cursor: pointer;
 	}
 
 
@@ -332,7 +348,7 @@ input[type=submit]:hover{
 
 
 .video1 {
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	border-radius: 4px;
 	padding: 5px;
 	position: relative;
