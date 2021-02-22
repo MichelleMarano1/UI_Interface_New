@@ -172,6 +172,13 @@ html {
 	font-size: 18px;
 	font-family: helvetica, sans-serif;
 }
+
+.gallery p {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 14px;
+	font-family: helvetica, sans-serif;
+}
 .burning {
 	padding: 50px;
 	text-align: center;
