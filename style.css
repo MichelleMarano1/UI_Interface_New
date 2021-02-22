@@ -230,12 +230,17 @@ p {
 	width: 100%;
 	padding: 1%;
 }
+.foottext{
+	color:rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 1vw;
+	margin-bottom: 0;
+	padding: 1vw;
+}
 
 .footer a {
 	color: rgb(165, 211, 0);
-	font-weight: bolder;
-	font-size: 10pt;
-	font-family: Helvetica
 }
 
 /*************************************************************************/
