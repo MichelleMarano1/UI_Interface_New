@@ -322,7 +322,6 @@ form {
 
 /* Source: https://css-tricks.com/focusing-on-focus-styles/ */
 /* Source: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_dim_width_inputfocus */
-/* Set width of input field to 100px. When input field is in focus, make it 250px wide. */
 
 form label {
 	font-weight: bold;
@@ -360,7 +359,6 @@ input[type=submit] {
 	cursor: pointer;
 }
 
-/* focus state when tabbing through input boxes */
 input[type=submit]:focus{
 	width: 100px;
 	-webkit-transition: width .35s ease-in-out;
