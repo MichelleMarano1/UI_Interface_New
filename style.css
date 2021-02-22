@@ -26,12 +26,13 @@ body {
   }
 
 .nav {
-	margin-top: 0px;
-	padding: 0px;
-	background-color: #1d1d1d;
-	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding:-3px;
+	top:0;	
 	overflow: hidden;
-	font-family: sans-serif;
+	background-color: #000000;
+	position: sticky;
 	}
 
   ul {
