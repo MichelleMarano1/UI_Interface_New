@@ -162,11 +162,15 @@ html {
 .gallery h1 {
 	color: rgb(255, 255, 255);
 	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-weight: bolder;
 }
 
 .gallery h2  {
 	color: rgb(255, 255, 255);
 	text-align: center;
+	font-size: 18px;
+	font-family: helvetica, sans-serif;
 }
 .burning {
 	padding: 50px;
@@ -177,26 +181,38 @@ html {
 .burning h1 {
 	text-align: center;
 	color: rgb(255, 255, 255);
+	font-size: 33px;
+	font-family: helvetica, sans-serif;
+	font-weight: bolder;
   }
-
-/* Headings */
-h1 {
-	color: rgb(0, 0, 0);
+.burning h2 {
 	text-align: center;
-	font-weight:900;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-family: helvetica, sans-serif;
+  }
+/* Headings */
+.setup-section h1 {
+	color: rgb(0, 0, 0);
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	font-size: 33px;
+	font-family: helvetica, sans-serif;
+	font-weight: bolder;
 }
 
-h2 {color: rgb(0, 0, 0);
+.setup-section h2 {color: rgb(0, 0, 0);
 text-align: center;
-padding: 1%;
+font-size: 18px;
+font-family: helvetica, sans-serif;
 }
 
 p {
 	position: relative;
 	text-align: left;
-	line-height: 21.4px;
+	line-height: 29px;
 	color: rgb(29, 29, 29);
-	font-size: 11pt;
+	font-size: 14pt;
 	font-family: Helvetica
 }
 
@@ -348,15 +364,10 @@ input[type=submit]:hover{
 
 
 .video1 {
-	border: 2px solid #fff;
+	border: 2px solid rgb(155, 0, 0);
 	border-radius: 4px;
 	padding: 5px;
 	position: relative;
 	left: 15%;
-	margin-top: 5%;
-}
-
-
-.background-burn {
-	background: linear-gradient(to left, #9198e5,#74d8ef);
+	margin-top: 2%;
 }
