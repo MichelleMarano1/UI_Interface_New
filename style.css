@@ -102,10 +102,12 @@ html {
 	left: 0%;
   }
 
-  .title h2{
-	color: rgb(0, 191, 216);
-	font: large;
+.headshot{
+	border-radius: 8px;
+	position: relative;
+	left: 0%;
   }
+
 
 /*Michelles Button for links on about us page */
   .button {
