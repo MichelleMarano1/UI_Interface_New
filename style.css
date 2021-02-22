@@ -233,6 +233,9 @@ p {
 
 .footer a {
 	color: rgb(165, 211, 0);
+	font-weight: bolder;
+	font-size: 10pt;
+	font-family: Helvetica
 }
 
 /*************************************************************************/
