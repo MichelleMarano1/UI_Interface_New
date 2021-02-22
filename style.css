@@ -226,24 +226,24 @@ p {
 	font-family: Helvetica
 }
 
-.footer{
-	color: rgb(255, 255, 255);
-	background-color: rgb(46, 46, 46);
-	text-align: center;
+footer{
+
+	background-color: rgb(27, 27, 27);
 	width: 100%;
-	padding: 1%;
-}
-.foottext{
-	color:rgb(255, 255, 255);
-	font-family: 'Montserrat', sans-serif;
+	padding: 3px;
+	font-family: Helvetica;
 	text-align: center;
-	margin-top: 1vw;
-	margin-bottom: 0;
-	padding: 1vw;
 }
 
-.footer a {
+footer p {
+	font-family: Helvetica;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+footer a {
 	color: rgb(165, 211, 0);
+
 }
 
 /*************************************************************************/
